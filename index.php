@@ -14,5 +14,6 @@ require_once __DIR__.'/vendor/autoload.php';
 require_once __DIR__.'/app/bootstrap.php';
 require_once __DIR__.'/app/app.php';
 require_once __DIR__.'/app/lib.php';
+require_once __DIR__.'/app/7bit.php';
 
 $app->run();

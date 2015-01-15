@@ -7,6 +7,23 @@
 {% block content %}
     {{ content|default("No content") }}
 
+    <form method="post">
+
+        <textarea name="in">{{in|default()}}</textarea>
+
+            <button type="submit" name="convert" value="to">Convert to #7bit</button>
+            <button type="submit" name="convert" value="from">Convert from #7bit"</button>
+
+        <textarea name="out">{{out|default()}}</textarea>
+
+        <h3>Check: </h3>
+        <textarea name="check">{{check|default()}}</textarea>
+
+
+        {% if in is defined %}Before: {{ in|length }}, after: {{ out|length }}, check: {{ check|length }}.{% endif %}
+
+    </form>
+
     {{ dump(config) }}
 
 {% endblock %}
