@@ -1,0 +1,12 @@
+{% extends '_base.twig' %}
+
+{% block title %}
+    {{ title|default("No title") }} | Silex bootstrap.
+{% endblock %}
+
+{% block content %}
+    {{ content|default("No content") }}
+
+    {{ dump(config) }}
+
+{% endblock %}

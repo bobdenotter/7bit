@@ -1,0 +1,12 @@
+{
+    "name": "bobdenotter/silex-bootstrap",
+    "require": {
+        "silex/silex": "~1.2",
+        "doctrine/dbal": "~2.5",
+        "monolog/monolog": "~1.12",
+        "twig/twig": "~1.17",
+        "symfony/yaml": "~2.6",
+        "symfony/var-dumper": "~2.6",
+        "silex/web-profiler": "~1.0"
+    }
+}

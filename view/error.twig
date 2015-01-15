@@ -1,0 +1,20 @@
+{% extends '_base.twig' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+<h1>
+	Error: {{class}}
+</h1>
+
+{{message}}
+</p>
+
+<p>code: <tt>{{code}}</tt></p>
+
+{{ dump(trace) }} 
+
+
+{% endblock %}

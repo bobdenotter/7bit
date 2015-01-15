@@ -1,0 +1,9 @@
+
+database:
+  host: localhost
+  databasename: xxx
+  user: xxx
+  password: xxx
+
+
+title: Silex Bootstrap
